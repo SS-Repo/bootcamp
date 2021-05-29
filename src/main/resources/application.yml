@@ -7,14 +7,14 @@ server:
 spring:
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/db_bootcamp
-    username: postgres
-    password: 123456
+    url: postgres://mdfariortejase:3bd01da8378f55a12fb64b6838ff54f242cebd17d41f8544d254d7d18b91a210@ec2-3-218-71-191.compute-1.amazonaws.com:5432/d4ia40mqo24e2b
+    username: mdfariortejase
+    password: 3bd01da8378f55a12fb64b6838ff54f242cebd17d41f8544d254d7d18b91a210
     driverClassName: org.postgresql.Driver
   jpa:
     show-sql: false
     hibernate:
-      ddl-auto: none
+      ddl-auto: true
 
 application:
     description: Projeto criado para o Bootcamp DIO - Santander
